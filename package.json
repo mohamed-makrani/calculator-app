@@ -1,4 +1,15 @@
-"scripts": {
-  "start": "node server.js",
-  "test": "echo \"no tests yet\""
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Simple Node calculator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"no tests yet\""
+  },
+  "author": "Mohamed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
